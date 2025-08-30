@@ -1,0 +1,40 @@
+.header {
+    display: grid;
+    align-items: center;
+    padding: 16px 0;
+    height: 80px;
+    border: 1px solid #E0DFDE;
+    text-align: center;
+    font-family: serif;
+    
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.register-form__content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 48px;
+}
+
+.register-form {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.register-form__group {
+    border: 1px solid #E0DFDE;
+}
+
+.register-form__group-title,
+.register-form__group-content{
+    padding: 16px 48px;
+}
+
+.register-form__group-title {
+    width: calc(100% / 3);
+        text-align: left;
+        font-weight: 400;
+}
